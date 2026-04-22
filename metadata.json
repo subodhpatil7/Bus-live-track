@@ -1,0 +1,8 @@
+{
+  "name": "Urja Live Track",
+  "description": "Real-time GPS-based bus tracking platform for users and admins.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": []
+}

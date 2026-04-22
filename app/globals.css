@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-bento-bg: #0c0e12;
+  --color-bento-card: #161b22;
+  --color-bento-border: #30363d;
+  --color-bento-text: #f0f6fc;
+  --color-bento-muted: #8b949e;
+  --color-bento-accent: #ffb142;
+  --color-bento-danger: #ff5252;
+  --color-bento-success: #3fb950;
+  
+  --font-sans: 'Inter', 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+  background-color: var(--color-bento-bg);
+  color: var(--color-bento-text);
+  font-family: var(--font-sans);
+}
+
+/* Pigeon Maps dark mode filter trick */
+.map-dark-tiles > div:first-child {
+  filter: invert(100%) hue-rotate(180deg) brightness(85%) contrast(90%) grayscale(20%);
+}
